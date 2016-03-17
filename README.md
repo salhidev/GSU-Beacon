@@ -1,2 +1,7 @@
 # GSU-Beacon
- An Application that tracks users and range Estimote beacon and send Data to users by receiving beacons RSSI
+ 1. GSU Beacon Getting Started
+2. Use the GSU Beacon app • GSU Beacon app is designed to interact with Estimote beacons which will trigger( with Bluetooth signal ) the app to show content to the user depending on which beacon closer to the mobile application. • The mobile application could be use for different purposes. We choose to orient it towards visitors and students. GSU Beacon will give informational content to users about which building they are in or walk by.
+3. RSSI Strength and distance • To make the app interacts with the beacons, the user must be in a distance where the RSSI signal is strong, in this case a distance less than 10m(distance<10m) is good for the signal to reach the app.
+4. RSSI Strength and distance Signal Direction Beacons emit their signal in every direction at once, much like the sphere concept at the top. Various forms of interference can negatively impact range Very high interference potentials: metal, water If possible place Estimote beacons above your audience to avoid wireless barriers or position them to provide a clear signal path. ( Source https://community.estimote.com/hc/en-us/articles/200794267 )
+5. Analytics • GSU Beacon can be connected to Google Analytics to give more details about using the app which will help future development and performance. • Depending on the content and kind of information used in the app, analytics would be a great way to see real-time interactions and also events tracking.
+6. Thank you • Presented by The innovation center at Georgia Southern University • For technical questions, contact • http://its.georgiasouthern.edu/help/its-helpdesk/
