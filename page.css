@@ -1,0 +1,158 @@
+html, body
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+.my-page
+{
+	display: none;
+}
+.my-page1
+{
+	display: none;
+}
+.my-page2
+{
+	display: none;
+}
+.my-page3
+{
+	display: none;
+}
+.my-page4
+{
+	display: none;
+}
+
+.my-header
+{
+}
+
+.my-header-image
+{
+	width: 100%;
+	height: auto;
+}
+
+.my-icon-back
+{
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	width: 12%;
+	height: auto;
+}
+
+.my-content
+{
+	margin: 10px 20px;
+	padding: 0;
+	font-family: sans-serif;
+	
+}
+
+.my-content h1
+{
+	font-size: 150%;
+}
+
+.my-content p, .my-content ul
+{
+	font-size: 120%;
+}
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding-top: 50px;
+}
+.formwrapper {
+	position: relative;
+	padding-bottom: 100%; /* 16:9 */
+	padding-top: 25px;
+	height: 700px;
+}
+.formwrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	
+}
+table {
+    border-collapse: collapse;
+}
+table, td, th {
+    border: 1px solid black;
+	 text-transform: lowercase;
+	 text-transform: capitalize;
+	 font-family: "Lucida";
+	  font-style: bold;
+	  font-style: italic;
+	  font-weight: bold;
+	  
+}
+td {
+    height: 50px;
+    text-align: center;
+	font-style: bold;
+}
+.white1 {color: White;}  
+.yellow1{ 
+
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+  
+}
+.white1.td.p{font-size=2px;}
+
+.header-title img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  background: #555;
+}
+
+.header-title h1 {
+  position: relative;
+  top: 10px;
+  left: 1px;
+   padding:2px 0px 50px;
+   color:#16365d;
+   font-style: bold;
+    font-weight: bold;
+}
+.beacon-velvet{
+background-color: #792092 ;
+color:white;
+}
+.beacon-pistache{
+background-color: #a6bea8;
+color:black;
+}
+.beacon-normal{
+background-color:#e9e9e9;
+}
+.beacon-blue{
+background-color:#96dbf7 ;}
+.gsu-bluebeacon{
+margin-left:50px;
+margin-top:20px;
+}
+.gsu-bluebeacon.img{
+position: center;
+margin-left:50px;}
+.espace{
+height: 100px;}
